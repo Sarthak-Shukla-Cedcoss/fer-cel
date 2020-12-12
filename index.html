@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head><title>Temprature</title>
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+<body>
+	<form >
+	<fieldset>
+		<legend>Conversion</legend>
+		<div class="first">
+			<label>Temprature</label>
+			<input type="text" name="Temprature" id="enterTemp" >
+			<select id="dropdown">
+				<option selected>Temprature</option>
+				<option value="1">Celsius-Fahrenheit</option>
+				<option value="2">Fahrenheit-Celsius</option>
+			</select>
+		</div>
+		<div class="second">
+			<input type="text" readonly="readonly" id="display">
+		</div>
+		<div class="third">
+			<button type="button" class="btn" onclick="func()"  name="submitform" > Submit</button>
+		</div>
+	</fieldset>
+</form>
+
+
+<form >
+	<fieldset>
+		<legend> Instant Conversion</legend>
+		<div class="first">
+			<input type="text" name="Temprature" id="a1" onkeyup="fa()" placeholder="Celsius" >
+
+		
+			<input type="text" onkeyup="fb()" id="a2" placeholder="Fahrenheit">
+		</div>
+		<div class="second">
+			<input type="text" readonly="readonly" id="a3" placeholder="result">
+		</div>
+	</fieldset>
+</form>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>

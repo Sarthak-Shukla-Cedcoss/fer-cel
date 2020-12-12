@@ -1,0 +1,38 @@
+form{
+	margin-right:10%; 
+	margin-left:10%;
+	padding:5%;
+}
+fieldset{
+	border-color: #40a2e3;
+}
+legend{
+	color:red;
+	font-size:22px;
+}
+select{
+	background-color:#33cccc;
+	color:white;
+}
+.first{
+	margin-top:3%;
+	text-align: center;
+}
+.second{
+	margin-top:3%;
+text-align: center;
+}
+.third{
+	margin-top:3%;
+	margin-bottom: 3%;
+	text-align: center;
+}
+.btn{
+	color:white;
+	background-color:#40a2e3;
+	text-decoration:none;
+	border:none;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px; 
+}
